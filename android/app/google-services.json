@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1057146221624",
+    "project_id": "mybookstoread-dca44",
+    "storage_bucket": "mybookstoread-dca44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057146221624:android:0f4975d0208900e49a62cd",
+        "android_client_info": {
+          "package_name": "com.zielinska.my_books_to_read"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057146221624-s6js66e1dukh7n7s3rkjolgmp1v09f32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVrLgJz7SOs3eoHv9xdKUu86K8Xqno4lI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057146221624-s6js66e1dukh7n7s3rkjolgmp1v09f32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
