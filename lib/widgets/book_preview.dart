@@ -32,6 +32,9 @@ class BookPreview extends StatefulWidget {
 class _BookPreviewState extends State<BookPreview> {
   bool isFavourite = false;
 
+  double get descriptionWidth =>
+      MediaQuery.of(context).size.width - 2 * AppUIDimens.paddingMedium - AppUIDimens.imagePreviewSize;
+
   @override
   void initState() {
     super.initState();
@@ -95,8 +98,8 @@ class _BookPreviewState extends State<BookPreview> {
                   bottomLeft: Radius.circular(AppUIDimens.smallBorderRadius),
                 ),
               ),
-              height: 86,
-              width: 86,
+              height: AppUIDimens.imagePreviewSize,
+              width: AppUIDimens.imagePreviewSize,
               child: const Center(
                   child: Icon(
                 Icons.menu_book_rounded,
@@ -105,7 +108,7 @@ class _BookPreviewState extends State<BookPreview> {
             ),
           ),
           SizedBox(
-            width: MediaQuery.of(context).size.width - 2 * AppUIDimens.paddingMedium - 86,
+            width: descriptionWidth,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

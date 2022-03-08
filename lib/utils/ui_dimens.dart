@@ -12,5 +12,7 @@ class AppUIDimens {
   static const double borderRadius = 30;
   static const double iconSize = 22;
   static const double iconLargeSize = 28;
-  static const bouncingAnimationDuration = Duration(milliseconds: 100);
+  static const Duration bouncingAnimationDuration = Duration(milliseconds: 100);
+  static const double imageProportions = 148 / 210;
+  static const double imagePreviewSize = 86;
 }

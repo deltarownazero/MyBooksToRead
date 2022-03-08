@@ -69,7 +69,8 @@ class _BookDetailedWidgetState extends State<BookDetailedWidget> {
                     padding: const EdgeInsets.only(
                         bottom: AppUIDimens.paddingSmall, top: AppUIDimens.paddingMedium),
                     child: Container(
-                      width: (MediaQuery.of(context).size.width - AppUIDimens.paddingMedium) * 15 / 21,
+                      width: (MediaQuery.of(context).size.width - AppUIDimens.paddingMedium) *
+                          AppUIDimens.imageProportions,
                       height: MediaQuery.of(context).size.width - AppUIDimens.paddingMedium,
                       decoration: BoxDecoration(
                         color: AppColors.lightGrey,
@@ -82,7 +83,7 @@ class _BookDetailedWidgetState extends State<BookDetailedWidget> {
                           AppUIDimens.borderRadius,
                         ),
                         child: AspectRatio(
-                          aspectRatio: 148 / 210,
+                          aspectRatio: AppUIDimens.imageProportions,
                           child: previewUrl == null
                               ? const Icon(
                                   Icons.menu_book_rounded,

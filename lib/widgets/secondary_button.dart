@@ -29,7 +29,7 @@ class SecondaryButton extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: AppUIDimens.paddingMedium),
           decoration: BoxDecoration(
             border: Border.all(color: borderColor),
-            borderRadius: const BorderRadius.all(Radius.circular(20.0)),
+            borderRadius: const BorderRadius.all(Radius.circular(AppUIDimens.smallBorderRadius)),
           ),
           child: iconPath != null
               ? Row(
